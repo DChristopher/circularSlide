@@ -12,6 +12,7 @@
 		CF979C231FEBFCF7000E323E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF979C211FEBFCF7000E323E /* Main.storyboard */; };
 		CF979C251FEBFCF7000E323E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF979C241FEBFCF7000E323E /* Assets.xcassets */; };
 		CF979C281FEBFCF7000E323E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF979C261FEBFCF7000E323E /* LaunchScreen.storyboard */; };
+		CF979C351FEC05D8000E323E /* MySlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF979C341FEC05D8000E323E /* MySlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CF979C241FEBFCF7000E323E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CF979C271FEBFCF7000E323E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF979C291FEBFCF7000E323E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF979C341FEC05D8000E323E /* MySlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		CF979C1C1FEBFCF7000E323E /* CircularSlide */ = {
 			isa = PBXGroup;
 			children = (
+				CF979C341FEC05D8000E323E /* MySlider.swift */,
 				CF979C1D1FEBFCF7000E323E /* AppDelegate.swift */,
 				CF979C1F1FEBFCF7000E323E /* ViewController.swift */,
 				CF979C211FEBFCF7000E323E /* Main.storyboard */,
@@ -138,6 +141,7 @@
 			files = (
 				CF979C201FEBFCF7000E323E /* ViewController.swift in Sources */,
 				CF979C1E1FEBFCF7000E323E /* AppDelegate.swift in Sources */,
+				CF979C351FEC05D8000E323E /* MySlider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,10 +281,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6F5Y6NDTRM;
 				INFOPLIST_FILE = CircularSlide/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.-.CircularSlide";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -292,10 +297,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6F5Y6NDTRM;
 				INFOPLIST_FILE = CircularSlide/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.-.CircularSlide";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
